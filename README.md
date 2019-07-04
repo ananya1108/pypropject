@@ -1,6 +1,4 @@
-# pypropject 
-
-## summer course 
+# summer course 
 
 **Python Graph basics**
 * Plot1.py:-Basic graph plotting      
