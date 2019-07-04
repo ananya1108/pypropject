@@ -26,7 +26,7 @@
 * temp.py:-will print temperature and data same as dht11 but check code this worked and dht11 is sample
 
 **MQTT/twilio/IoT**
-* pubs.py:-publisher code for MQTT, works with app via hotspot(sophos blocks 1883)
+* pubs.py:-publisher code for MQTT, works with app via hotspot(sophos blocks 1883) credit:-@pyropotato thankyou :+1: 
 * smssend.py:-tried to send sms to phone from twilio but didnt work have to check
 * thingspeak1.py:-read data from dht11 and prints temperature to field1 and humidity to field2
 * trialtwilio.py:-again tried to send message through twilio
@@ -35,7 +35,9 @@
 
 **File**
 * file.py:- basic program for operation of read and write to file
-* TandHwrite.py:- takes temperature and humidity data and wtrites to readings.csv file
+* TandHwrite.py:- takes temperature and humidity data and wtrites to readings.csv file @pyropotato thanks:+1:
 
 **Calculator**
 * Scratch_1.py:- basic python calculator 
+
+
