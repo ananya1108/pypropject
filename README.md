@@ -10,6 +10,7 @@
 * Plot7ecg.py:-graph reading data from ecg.csv file
 * Plot8bar.py:-bar graph plotting
 * Plot9live.py:-live graph, reading file example.txt
+* Untitled.py:-changes graph when example.txt file data is updated and the graph is FTE design
 
 **Raspberry Pi programms**
 * RPIdht11_delay.py:-getting data from dht 11 and displaying output
@@ -18,9 +19,23 @@
 * RPIclocdc_thingsboard.py:- controlling led from thingsboard localhost cloud
 * RPImqtt_dht11pro.py:- displaying temperature and humidity collected by dht11 on thingsboard via MQTT
 * RPIservo1.py:- servo motor program
+* dht11.py:-printing temperature and humidity data to terminal
+* button.py:-python3 code to test the working of button
+* readdat.py:-~~tried reading data from thingspeak but didnt work~~
+* readssssssdat.py:- ~~tried reading data from thingspeak again but didnt work( wrong logic used again)~~
+* temp.py:-will print temperature and data same as dht11 but check code this worked and dht11 is sample
+
+**MQTT/twilio/IoT**
+* pubs.py:-publisher code for MQTT, works with app via hotspot(sophos blocks 1883)
+* smssend.py:-tried to send sms to phone from twilio but didnt work have to check
+* thingspeak1.py:-read data from dht11 and prints temperature to field1 and humidity to field2
+* trialtwilio.py:-again tried to send message through twilio
+* twiliopro.py:-this is final twilio program , have to check (will mostly work)
+> probably all twilio programms are same
 
 **File**
 * file.py:- basic program for operation of read and write to file
+* TandHwrite.py:- takes temperature and humidity data and wtrites to readings.csv file
 
 **Calculator**
 * Scratch_1.py:- basic python calculator 
