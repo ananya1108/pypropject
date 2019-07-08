@@ -38,6 +38,9 @@
 * displaysql:- gets temperature and humidity data from dht11 raspberry Pi and saves to a database "sensordata" using sqlite3 in   pthon 
 * plotsql:gets data stored in database "sensordata" and plots a graph "program not complete!!"
 * TandHwrite.py:- takes temperature and humidity data and wtrites to readings.csv file @pyropotato thanks:+1:
+* fetchsql:- fetching databse and printing using fetchall() from "fetching.db" "incomplete program"
+* DB_sql_Static:- creating a database and storing data to "soisIOT.db"
+* dynamicSQL:- storing dynamic data in database , i.e time , date and and randn variable in "dynamicDB.db"
 
 **Calculator**
 * Scratch_1.py:- basic python calculator 
