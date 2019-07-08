@@ -33,11 +33,18 @@
 * twiliopro.py:-this is final twilio program , have to check (will mostly work)
 > probably all twilio programms are same
 
-**File**
+**File/Database**
 * file.py:- basic program for operation of read and write to file
+* displaysql:- gets temperature and humidity data from dht11 raspberry Pi and saves to a database "sensordata" using sqlite3 in   pthon 
+* plotsql:gets data stored in database "sensordata" and plots a graph "program not complete!!"
 * TandHwrite.py:- takes temperature and humidity data and wtrites to readings.csv file @pyropotato thanks:+1:
 
 **Calculator**
 * Scratch_1.py:- basic python calculator 
+
+**Arduino+RPi 3**
+* aduino_sedning:- read dht11 readings from RPi using pyserial library and store into database "datafromArduino, decoding data     and using a delimiter is important.This is programmed on Rpi in python
+* ArduinoSendingData:- this is programmed on Arduino to store and print dht11 readings i.e temperature and humidity, also a       delimiter is printed along with T&H.
+
 
 
