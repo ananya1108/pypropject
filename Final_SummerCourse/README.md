@@ -1,5 +1,7 @@
-$IoT Project
+# IoT Project
 
-At NodeMCU dht11 sends reading to thingspeak channel and when PIR sensor is activated buzzer goes on ,i.e when motion is detected buzzer will buzz.
+**NodeMCU_uploading.ino**
+* Code for uploading DHT 11 readings to the thingspeak server , also buzzer will go on if an object is placed in front of the PIR sensor
 
-At raspberry pi data from thingspeak server is read and mosquitto cloud mqtt is used to read data on various devices.
+**RaspberryPi_download.py**
+* This program will read data from thingspeak server and will upload it to the Mosquitto cloud using MQTT protocol
